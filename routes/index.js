@@ -5,8 +5,8 @@ var bodyParser = require("body-parser")
 var mailchimp = require("@mailchimp/mailchimp_marketing")
 
 mailchimp.setConfig({
-  apiKey: "5cf257b41a420bd026e10c438ec51078-us6",
-  server: "us6",
+  apiKey: "",
+  server: "",
 });
 
 router.use(bodyParser.urlencoded({extended: true}))
